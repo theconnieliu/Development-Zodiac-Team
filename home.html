@@ -1,7 +1,8 @@
 <!doctype html>
 
 <html>
-  <main>
+<main>
+
   <head>
     <title>Chinese Zodiac Team Creator</title>
     <link rel="stylesheet" href="index.css">
@@ -10,85 +11,112 @@
   </head>
 
   <body>
-  
-    <h1 class= "title">Development:</h1>
-    <h1 class= "title-accent">Chinese Zodiac Team Creator</h1>
+
+    <h1 class="title">Development:</h1>
+    <h1 class="title-accent">Chinese Zodiac Team Creator</h1>
     <br>
     <br>
     <h3>Overview + Premise:</h3>
-    <p>In CS1300, we were asked to create a list interface! I chose to create an app that is based off
-      the legend of the Chinese Zodiac, where all the animals raced to impress the emperor and the first twelve
-      animals earned a spot in the Zodiac. In my app, users can select which of the twelve Zodiac animals to 
-      add to their own Race Team, and view the combined number of celestial legs (and therefore race power) their team has.
-      <b>The final app is viewable <a href= "https://rocky-ocean-73846.herokuapp.com/">here<a>.</b>
+    <p>In CS1300, we were asked to create a list interface using React! Given the option to create anything,
+      I chose to create an app that is based off
+      the legend of the Chinese Zodiac, where all the animals raced to impress the emperor and earn a spot in the
+      Zodiac.
+      I've always been fascinated by Chinese myths and legends, and since there are twelve animals in the Chinese
+      Zodiac,
+      the legend seemed like a perfect fit for the assignment's requirements!
+      <b>The final app is viewable <a href="https://rocky-ocean-73846.herokuapp.com/">here<a>.</b>
     </p>
     <br>
-    <div class= "card-container">
-      <img class= "wireframe" alt= "Main Screen" src= "images/main_screen.png">
+    <div class="card-container">
+      <img class="wireframe" alt="Main Screen" src="images/main_screen.png">
     </div>
     <br>
     <br>
     <h2>Goal of App</h2>
-    <p>The goal of the application is to enable users to create a race team from the twelve Chinese Zodiac Animals.
-      They can filter the animals by <b>Celestial Element</b> (Metal, Water, Fire, Earth, Wood) and <b>Yin/Yang Alignment</b>,
-      as well as sort the animals by either <b>Race Order</b> (the order in which the animals completed the legendary race) or Reverse Race Order (
-        so users can see which animals were fastest or slowest). Users can select or unselect animals for their team,
-        and view the combined number of legs the team would have, a.k.a. the animal power of the chosen race team.
+    <p>The goal of the application is to enable users to create a race team from the twelve Chinese Zodiac Animals,
+      using
+      specifications and information about each animal to inform their selection.
+      Users can select which of the animals to
+      add to their own Race Team, and view the combined number of celestial legs (and therefore race power) their team
+      has.
+    </p>
+    <p>They can filter the animals by <b>Celestial Element</b> (Metal, Water, Fire, Earth, Wood) and <b>Yin/Yang
+        Alignment</b>,
+      as well as sort the animals by either <b>Race Order</b> (the order in which the animals completed the legendary
+      race) or Reverse Race Order (
+      so users can see which animals were fastest or slowest). Users can select or unselect animals for their team,
+      and view the combined number of legs the team would have, a.k.a. the animal power of the chosen race team.
     </p>
     <h3>Value to Users</h3>
     <p>
-      This app is useful to any user interested in learning more about the Chinese Zodiac animals. While many people are well-versed in
-      Western Zodiacs and horoscopes, much less people are well educated about the Chinese Zodiac. Of the population of people who are aware
-      of the Chinese Zodiac, most of them only know of the 
-      existence of the animals, but are not familiar with the particular subcategories of characteristics that are integral to the 
+      This app is useful to any user interested in learning more about the Chinese Zodiac animals. While many people are
+      well-versed in
+      Western Zodiacs and horoscopes, much less people are well educated about the Chinese Zodiac. Of the population of
+      people who are aware
+      of the Chinese Zodiac, most of them only know of the
+      existence of the animals, but are not familiar with the particular subcategories of characteristics that are
+      integral to the
       formation of the Zodiac. Such important characteristics include the animal's Celestial Element
       and Yin/Yang alignment, both of which I created filters for in my app so users can explore the specific animals
-      in each category.  
+      in each category.
     </p>
-      <br>
-      <div class= "card-container">
-        <img class= "wireframe" alt= "Cards" src= "images/cards.png">
-      </div>
-  <br>
-    
-    <div class= "usability-test-section"></div>
+    <br>
+    <div class="card-container">
+      <img class="wireframe" alt="Cards" src="images/cards.png">
+    </div>
+    <br>
+
+    <div class="usability-test-section"></div>
     <h2>Usability Principles Considered</h2>
     <h4>Visual Style Cohesiveness</h4>
     <ul>
-    <li>
-      With how prominent and recognizable traditional Chinese color schemes are (reds, golds, etc.) it was important for me to 
-      have a strong visual style guide. I made sure my entire app adhered to a memorable color palette that was reminiscent of traditional
-      Chinese ornamentation and aesthetics. 
-    </li>
-  </ul>
+      <li>
+        With how prominent and recognizable traditional Chinese color schemes are (reds, golds, etc.) it was important
+        for me to
+        have a strong visual style guide. I made sure my entire app adhered to a memorable color palette that was
+        reminiscent of traditional
+        Chinese ornamentation and aesthetics.
+      </li>
+    </ul>
     <h4>Accessibility + Learnability</h4>
     <ul>
-    <li>
-      I wanted to make the app as easy to use as possible, and made sure the contrast between the text and background colors was enough
-      to make everything readable.  
-    </li>
-    <li>
-      The dropdown menus and filters, as well as the buttons and cards, are all consistent in visual design and function throughot the app to ensure ease
-      of use and learnability.
-    </li>
-    <li>
-      I used my jade green from my color palette as the accent color, knowing that it would differentiate itself
-      drastically from the other warmer colors and stand out as a call-to-action color. Therefore, the buttons to reset all filters and 
-      add/remove animals from the user's selected race team were green.
-    </li> 
-  </ul>
+      <li>
+        I wanted to make the app as easy to use as possible, and made sure the contrast between the text and background
+        colors was enough
+        to make everything readable.
+      </li>
+      <li>
+        The dropdown menus and filters, as well as the buttons and cards, are all consistent in visual design and
+        function throughot the app to ensure ease
+        of use and learnability.
+      </li>
+      <li>
+        I used my jade green from my color palette as the accent color, knowing that it would differentiate itself
+        drastically from the other warmer colors and stand out as a call-to-action color. Therefore, the buttons to
+        reset all filters and
+        add/remove animals from the user's selected race team were green.
+      </li>
+    </ul>
     <br>
+    <h3>Takeaways + Lessons Learned</h3>
+    <p>This was my first time creating a React app, so the entire process from start to finish was a learning
+      experience.
+      From installing npm, learning what a .jsx file was, to even shipping out the app to Heroku from GitHub– they were
+      all
+      things I did for the first time thanks to this assignment, and I'm thankful to have taken away so much. My
+      favorite thing
+      I learned, albeit how small it is, is how to write comments in .jsx files!
+    </p>
     <br>
-  
+
     <h4>Link to GitHub Repo: <a href="https://github.com/theconnieliu/Zodiac-List">Zodiac Race Team Code</a></h4>
 
     <h4>Link to Deployed App: <a href="https://rocky-ocean-73846.herokuapp.com/">Chinese Zodiac Race Team</a></h4>
     <br>
   </body>
   <footer>
-    Made with <span class ="heart">&#12092;</span> in Providence
+    Made with <span class="heart">&#12092;</span> in Providence
   </footer>
 </main>
+
 </html>
-
-
